@@ -1,0 +1,12 @@
+{
+    "author": "Nick Hansen",
+    "description": "Porting my favorite extension to the browser I'm trying to love.",
+    "name": "Cloud2Butt",
+    "version": "1.0",
+    "content_scripts": [{
+        "matches": ["*://*/*"],
+        "js": ["cloudToButt.js"],
+	"run_at": "document_end"
+    }]
+}
+
